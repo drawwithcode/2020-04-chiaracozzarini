@@ -7,7 +7,7 @@ function preload(){
 }
 
 function setup() {
-  title = createElement("h1", "A Journey through my QUARANTINE");
+  title = createElement("h1", "A Journey through my SWEET QUARANTINE");
   subtitle = createElement("h2", "Here's how I am handling the lockdown");
   start = createButton("tell me more");
   start.mouseClicked(goToPage);
