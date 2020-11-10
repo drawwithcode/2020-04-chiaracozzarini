@@ -1,12 +1,18 @@
+var input;
+var title;
+var subtitle;
+var start;
+
 function preload(){
-  // put preload code here
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
-  // put setup code here
+  title = createElement("h1", "A Journey through my QUARANTINE");
+  subtitle = createElement("h2", "Here's how I am handling the lockdown");
+  start = createButton("tell me more");
+  start.mouseClicked(goToPage);
 }
 
-function draw() {
-  // put drawing code here
+function goToPage(){
+  window.open('index2.html', "_self");
 }
